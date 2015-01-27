@@ -1,0 +1,80 @@
+<html>
+<!-- ======= FRONT END OF AN HTML/PYTHON FORM PROCESSING TEAM ======== -->
+<!-- ==== Displays a form, then hands off input to Python script. ==== -->
+<head>
+<title>ROT13</title>
+</head>
+
+<body><center>
+
+  <form name="input" method="GET" action="formMagic.py"><br>
+<h1 align=center>Welcome to a ROT-coder webpage!</h1> <br> <br>
+By: Angela Lin
+<br>
+Contributors: Laura Wang <br> <br>
+	<img src="rot13.jpeg" alt="rot13" length=300 width=350> <br>
+Above: A visual explanation to how rot13 works.
+<br> 
+<br>
+Below: A rot13 wheel! 
+<br>
+	<img src="wheel.jpeg" alt="wheely"> 
+<br> 
+<br>
+<br>
+<br>
+<b><font size=12>How does this work?</font></b>
+<br>
+<i>
+	Basically, if you would like to "rot" (short for rotate) your text, please choose <b>"ROTify"</b> and the number you wish to rotate your text by.
+<br>
+If you wish to reverse the letters of your text, ROT should be set to <b>0</b>, and "Reverse my text!" should be chosen.
+<br>	
+If you wish to reverse your text AND rot-ify, please choose "Reverse my text!" and choose the value you wish to rotate your text by.
+</i>
+<br>
+<br>
+<br>
+
+	Enter Text Here: <br> <textarea rows="3" name="txt01" cols="20"> This text will be changed. </textarea> <br> <br>
+Do you fancy any fancy fonts? <br><br>
+	Italicize? <input type="checkbox" name="i" value="yes">  
+	Bold? <input type="checkbox" name="b" value="yes">  
+	Underline? <input type="checkbox" name="u" value="yes"> <br>
+	ROTify <input type='radio' name='mode' value='ROT'>
+	ROT <select name="rot" size="1">
+		<option selected>0</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>	
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+		<option>11</option>
+		<option>12</option>
+		<option>13</option>
+		<option>14</option>
+		<option>15</option>	
+		<option>16</option>
+		<option>17</option>
+		<option>18</option>
+		<option>19</option>
+		<option>20</option>
+		<option>21</option>
+		<option>22</option>
+		<option>23</option>
+		<option>24</option>
+		<option>25</option>	
+		<option>26</option>
+	</select>
+<br>
+	Reverse my text! <input type='radio' name='mode' value='Reverse'> <br>
+	<input type="submit" value="ARE YOU READY??">
+  </form>
+
+</center></body>
+</html>

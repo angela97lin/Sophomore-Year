@@ -1,0 +1,26 @@
+<html>
+<!-- ======= FRONT END OF AN HTML/PYTHON FORM PROCESSING TEAM ======== -->
+<!-- ==== Displays a form, then hands off input to Python script. ==== -->
+<head>
+<font color="#FFFFFF">
+<title>Volume Generator!</title>
+</head>
+<h1> Welcome to a Volume Generating Page! <h1>
+<h2><b>How does this work?</b></h2>
+
+Well, if you want to calculate the volume of a rectangular prism, simply place the proper dimensions in the appropriate fields. <br>
+If only given two fields, only an AREA will be calculated, so beware! <br>
+ALSO: DON'T BE STUPID. Clearly, there is no negative or zero value for dimensions. <br>
+Otherwise, have fun and calculate away!<br>
+<body background='prism.jpg'>
+
+  <form name="input" method="GET" action="dim3.py"><br>
+	Width: <input type='text' name='width' Size='20'> <br>
+	Length: <input type='text' name='length' Size='20'> <br>
+	Height: <input type='text' name='height' Size='20'> <br>
+	<input type="submit" value="Submit">
+  </form>
+
+
+</body>
+</html>
